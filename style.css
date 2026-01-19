@@ -150,7 +150,7 @@ input[type="text"] {
 }
 @media (max-width:600px){
     .hero-btns a{
-        width: 150px;
+        width: 100px;
         padding: 5px;
     }
    }  
@@ -377,4 +377,5 @@ input[type="text"] {
     }
 
 }
+
 
