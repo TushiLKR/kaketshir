@@ -148,7 +148,11 @@ input[type="text"] {
     .hero-btns { justify-content: center; }
     #canvas-container { height: 300px; }
 }
-   
+@media (max-width:600px){
+    .hero-btns a{
+        width: 150px;
+    }
+   }  
 /* --- News Section --- */
 .news-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 2rem; }
 .news-item { background: var(--glass); padding: 25px; border-radius: 10px; border-left: 4px solid var(--gold); }
@@ -370,4 +374,5 @@ input[type="text"] {
         0% { transform: translateX(0); }
         100% { transform: translateX(calc(-220px * 4)); }
     }
+
 }
