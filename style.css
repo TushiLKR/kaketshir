@@ -151,6 +151,7 @@ input[type="text"] {
 @media (max-width:600px){
     .hero-btns a{
         width: 150px;
+        padding: 5px;
     }
    }  
 /* --- News Section --- */
@@ -376,3 +377,4 @@ input[type="text"] {
     }
 
 }
+
